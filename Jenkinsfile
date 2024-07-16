@@ -44,7 +44,7 @@ pipeline {
             steps {
                 script {
                     // Start the Python server in the background
-                    sh 'nohup python3 main.py & || true'
+                    sh 'true'
                     // Wait for the server to start
                     sleep 10
                 }
